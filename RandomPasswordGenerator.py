@@ -13,4 +13,6 @@ for _ in range(n):
 for _ in range(s):
     password += random.choice(special)
 password=''.join(random.sample(password,len(password)))
+print("----------------------------------------------")
 print("Generated Password:",password)
+print("----------------------------------------------")
